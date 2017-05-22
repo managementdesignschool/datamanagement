@@ -9,7 +9,7 @@ cgitb.enable()
 
 def main():
     template = "view/template.inc"
-    sitename = "http://collegestarterkit.net/"
+    sitename = "http://managementdesignschool.com/"
     tpl = "".join(open(template,'r').readlines())
     print 'Content-type: text/html; charset=utf-8\n\n' + tpl
 
